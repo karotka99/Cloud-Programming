@@ -12,7 +12,7 @@ git clone https://github.com/karotka99/Cloud-Programming.git
 Please put the cloned file to the Desktop.
 Nextly, you have to open Anaconda Powershell Prompt and there you have to get to the file by writing:
 ```
-cd Desktop\Cloud-Programming\docker
+cd Desktop\Cloud-Programming
 ```
 Now, don't close Anaconda Powershell Prompt and open Docker Desktop. Coming back to the Anaconda Powershell Prompt write the following commands:
 
