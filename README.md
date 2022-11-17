@@ -14,12 +14,12 @@ Nextly, you have to open Anaconda Powershell Prompt and there you have to get to
 ```
 cd Desktop\Cloud-Programming
 ```
-Now, don't close Anaconda Powershell Prompt and open Docker Desktop. Coming back to the Anaconda Powershell Prompt write the following commands:
+Now, don't close Anaconda Powershell Prompt and open Docker Desktop. Coming back to the Anaconda Powershell Prompt write the following commands to build an image:
 
 ```
 docker build -t function_app:v1.0 . 
  ```
- Wait until it will be ready and write:
+ Wait until it will be ready and write the following comment to run the container:
  ```
  docker run --rm -it -p 5000:5000 function_app:v1.0
  ```
@@ -44,3 +44,9 @@ $$f(x)=x^2, ~~ x\in (-5,5), ~~ y \in (-5,5).$$
 \
 \
 But please, don't go crazy with parameters. Application is not prepared for problems like: what if $x_{min}> x_{max}$. So you have to write good numbers.
+\
+\
+At the end you can remove the image by wirting following command:
+```
+docker image rm function_app:v1.0
+```
